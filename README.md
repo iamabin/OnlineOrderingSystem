@@ -1,28 +1,5 @@
 A QR-based smart restaurant ordering system built with Django. This app enables restaurant owners to manage digital menus and generate table-specific QR codes. Customers can scan and place orders directly from their phones—no app installation needed.
 
-#### **Main Pages**
-
-> **Homepage (Login / Signup)**
-
-**Login page:**
-  ![GitHub Logo](https://raw.githubusercontent.com/iamabin/OnlineOrderingSystem/main/assets/login.png)
-**Signup page:**
-  ![GitHub Logo](https://raw.githubusercontent.com/iamabin/OnlineOrderingSystem/main/assets/Signup.png)
-
-> **Dashboard (Menu & Table Management)**
-**Menu edition page:**
-  ![GitHub Logo](https://raw.githubusercontent.com/iamabin/OnlineOrderingSystem/main/assets/EditMenu.png)
-
-**Table management page:**
-  ![GitHub Logo](https://raw.githubusercontent.com/iamabin/OnlineOrderingSystem/main/assets/manageTable.png)
-**View order page:**
-
-  ![GitHub Logo](https://raw.githubusercontent.com/iamabin/OnlineOrderingSystem/main/assets/viewOrder.png)
-
-> **Admin Panel**
-
-**Admin page:**
-  ![GitHub Logo](https://raw.githubusercontent.com/iamabin/OnlineOrderingSystem/main/assets/admin.png)
 
 #### Tech Stack
 
@@ -65,7 +42,7 @@ Visit: http://127.0.0.1:8000/
 
 ------
 
-## Main Features
+#### Main Features
 
 | Feature           | Description                                               |
 | ----------------- | --------------------------------------------------------- |
@@ -76,4 +53,29 @@ Visit: http://127.0.0.1:8000/
 | Order Tracking    | Restaurant dashboard shows live orders with total amounts |
 
 ------
+
+#### **Main Pages**
+
+> **Homepage (Login / Signup)**
+
+**Login page:**
+  ![GitHub Logo](https://raw.githubusercontent.com/iamabin/OnlineOrderingSystem/main/assets/login.png)
+**Signup page:**
+  ![GitHub Logo](https://raw.githubusercontent.com/iamabin/OnlineOrderingSystem/main/assets/Signup.png)
+
+> **Dashboard (Menu & Table Management)**
+**Menu edition page:**
+  ![GitHub Logo](https://raw.githubusercontent.com/iamabin/OnlineOrderingSystem/main/assets/EditMenu.png)
+
+**Table management page:**
+  ![GitHub Logo](https://raw.githubusercontent.com/iamabin/OnlineOrderingSystem/main/assets/manageTable.png)
+**View order page:**
+
+  ![GitHub Logo](https://raw.githubusercontent.com/iamabin/OnlineOrderingSystem/main/assets/viewOrder.png)
+
+> **Admin Panel**
+
+**Admin page:**
+  ![GitHub Logo](https://raw.githubusercontent.com/iamabin/OnlineOrderingSystem/main/assets/admin.png)
+
 
