@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Homepage - Tabletap{% endblock %}
+
+{% block content %}
+<header class="bg-primary text-white text-center py-5">
+  <div class="container">
+    <h1 class="display-4">Welcome to Tabletap</h1>
+    <p class="lead">Online ordering system specially designed for restaurants and cafes</p>
+  </div>
+</header>
+
+<section id="login" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Log in to your restaurant backend</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6 dashboard-box">
+        {% if messages %}
+          {% for message in messages %}
+            <div class="alert alert-danger" role="alert">
+              {{ message }}
+            </div>
+          {% endfor %}
+        {% endif %}
+
+        <form method="post">
+          {% csrf_token %}
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" name="username" required />
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" name="password" required />
+          </div>
+          <button type="submit" class="btn btn-outline-primary w-100">Sign In</button>
+        </form>
+        <p class="text-center mt-3">Don’t have an account? <a href="{% url 'signup' %}">Sign up</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
