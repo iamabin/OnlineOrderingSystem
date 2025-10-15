@@ -4,7 +4,7 @@ A QR-based smart restaurant ordering system built with Django. This app enables 
 #### Tech Stack
 
 - Backend: Django 5.1
-- Database: SQLite (default) or MySQL
+- Database: SQLite
 - Frontend: HTML + Bootstrap 5
 - Authentication: Django built-in auth system
 - QR Code: `qrcode` + `base64` for image embedding
