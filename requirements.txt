@@ -1,0 +1,8 @@
+asgiref==3.8.1
+Django==5.1.7
+djangorestframework==3.16.0
+pillow==11.2.1
+qrcode==8.1
+setuptools==75.8.0
+sqlparse==0.5.3
+wheel==0.45.1
